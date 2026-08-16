@@ -1,18 +1,43 @@
-# React + Vite
+# Modern React Header
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website header built with React, React Router, and Tailwind CSS.
 
-Currently, two official plugins are available:
+The component includes animated navigation links, a subtle magnetic CTA button, and a responsive mobile navigation menu.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎨 Modern and minimal UI
+- 📱 Fully responsive design
+- 🧭 React Router navigation
+- ✨ Animated navigation links
+- 🖱️ Magnetic CTA button interaction
+- 📂 Mobile navigation menu
+- ⚡ Built with React and Vite
+- 🎨 Styled with Tailwind CSS
+- ♻️ Reusable and configurable component
+- 🧩 Configurable logo, navigation items, and CTA text
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠️ Tech Stack
 
-Note: This will impact Vite dev & build performances.
+- React
+- React Router
+- Tailwind CSS
+- Vite
+- JavaScript
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Desktop
+
+![Desktop Preview](./screenshots/desktop.png)
+
+### Mobile
+
+![Mobile Preview](./screenshots/mobile.png)
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/modern-react-header.git
