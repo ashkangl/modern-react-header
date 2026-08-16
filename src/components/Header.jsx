@@ -10,7 +10,7 @@ const navItems = [
         {path: '/pricing', label: "Pricing"},
     ]
 
-const Header = ({logo = "YOURCOMPANY", ctaText = "Let's Talk"}) => {
+const Header = ({logo = "ACME", ctaText = "Start a Project"}) => {
 
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0})
     const [mobileMenu, setMobileMenu] = useState(false)
@@ -92,7 +92,7 @@ const Header = ({logo = "YOURCOMPANY", ctaText = "Let's Talk"}) => {
 
             </div>
         </header>
-        {mobileMenu && <MobileNav onClose={() => setMobileMenu(false)} ctaText="Let's talk" ctaPath="/contact" navItems={navItems} />}
+        {mobileMenu && <MobileNav onClose={() => setMobileMenu(false)} ctaText="Start a Project" ctaPath="/contact" navItems={navItems} />}
         </>
     );
 };
